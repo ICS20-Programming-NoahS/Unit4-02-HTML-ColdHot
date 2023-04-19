@@ -11,6 +11,7 @@
  * This function determines whether or not the temperature is cold or hot
  */
 function hotcold() {
+  //get temperature in Celsius
   let result = "";
   let temperature = parseFloat(document.getElementById("hot-cold").value);
   
